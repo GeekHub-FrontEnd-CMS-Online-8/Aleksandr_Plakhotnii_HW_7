@@ -1,0 +1,56 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  .row {
+    height: 104px;
+    align-items: center;
+  }
+}
+
+.navbar-light .nav-item .nav-link {
+  color: #635c73;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-right: 45px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.col-4 button {
+  background: #8f7194;
+  border: none;
+  width: 145px;
+  height: 37px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+section {
+  background: url("../img/section-1-bg.jpg") no-repeat center;
+  height: 800px;
+  text-align: center;
+  color: #fff;
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 105px;
+    & + p {
+      color: #8d81ac;
+      font-size: 22px;
+      & + p {
+        color: #848e97;
+      }
+    }
+  }
+}
+
