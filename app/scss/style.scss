@@ -9,6 +9,10 @@ body {
   }
 }
 
+li {
+  list-style-type: none;
+}
+
 .navbar-light .nav-item .nav-link {
   color: #635c73;
   font-size: 16px;
@@ -106,15 +110,28 @@ body {
     border-radius: 2px;
     a {
       color: #333333;
-
       i {
         padding-right: 10px;
       }
-    span {
-      a {
-        border: 1px solid #d5d5d5;
+      span {
+        a {
+          border: 1px solid #d5d5d5;
+        }
       }
     }
+  }
+}
+
+.features {
+  background: #f4f4f4;
+  .box {
+    display: flex;
+    align-items: flex-start;
+    h3 {
+      font-size: 12px;
+    }
+    h {
+      font-size: 10px;
     }
   }
 }

@@ -10,6 +10,10 @@ body {
           align-items: center;
 }
 
+li {
+  list-style-type: none;
+}
+
 .navbar-light .nav-item .nav-link {
   color: #635c73;
   font-size: 16px;
@@ -134,4 +138,27 @@ body {
 
 .git-buttons .btn a span a {
   border: 1px solid #d5d5d5;
+}
+
+.features {
+  background: #f4f4f4;
+}
+
+.features .box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.features .box h3 {
+  font-size: 12px;
+}
+
+.features .box h {
+  font-size: 10px;
 }
