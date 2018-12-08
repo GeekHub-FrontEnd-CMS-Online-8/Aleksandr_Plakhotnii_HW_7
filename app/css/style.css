@@ -142,9 +142,10 @@ li {
 
 .features {
   background: #f4f4f4;
+  padding-top: 124px;
 }
 
-.features .box {
+.features .col-md-6 .box {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -153,12 +154,67 @@ li {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin-top: 40px;
 }
 
-.features .box h3 {
+.features .col-md-6 .box:first-child {
+  margin-top: 0;
+}
+
+.features .col-md-6 .box h3 {
   font-size: 12px;
+  font-weight: bold;
 }
 
-.features .box h {
+.features .col-md-6 .box p {
   font-size: 10px;
+  color: #848e97;
+  line-height: 18px;
+}
+
+.features .col-md-6 .box .features-text {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.features .col-md-6 .box .icon-1 {
+  background: url("../img/icon-1.png") no-repeat center center;
+  width: 225px;
+  height: 64px;
+  display: block;
+}
+
+.features .col-md-6 .box .icon-2 {
+  background: url("../img/icon-2.png") no-repeat center center;
+  width: 250px;
+  height: 80px;
+  display: block;
+}
+
+.features .col-md-6 .box .icon-3 {
+  background: url("../img/icon-3.png") no-repeat center center;
+  width: 250px;
+  height: 84px;
+  display: block;
+}
+
+.features .col-md-6 .box .icon-4 {
+  background: url("../img/icon-4.png") no-repeat center center;
+  width: 250px;
+  height: 71px;
+  display: block;
+}
+
+.col-md-6 .idea-tag h2 {
+  color: #8d81ac;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.col-md-6 .idea {
+  background: url("../img/idea-bg.png") no-repeat;
+  width: 100%;
+  height: 100%;
 }

@@ -124,14 +124,67 @@ li {
 
 .features {
   background: #f4f4f4;
-  .box {
-    display: flex;
-    align-items: flex-start;
-    h3 {
-      font-size: 12px;
-    }
-    h {
-      font-size: 10px;
+  padding-top: 124px;
+  .col-md-6 {
+    .box {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 40px;
+      &:first-child {
+        margin-top: 0;
+      }
+      h3 {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 10px;
+        color: #848e97;
+        line-height: 18px;
+      }
+      .features-text {
+        align-items: flex-start;
+      }
+      .icon-1 {
+        background: url("../img/icon-1.png") no-repeat center center;
+        width: 225px;
+        height: 64px;
+        display: block;
+      }
+      .icon-2 {
+        background: url("../img/icon-2.png") no-repeat center center;
+        width: 250px;
+        height: 80px;
+        display: block;
+      }
+      .icon-3 {
+        background: url("../img/icon-3.png") no-repeat center center;
+        width: 250px;
+        height: 84px;
+        display: block;
+      }
+      .icon-4 {
+        background: url("../img/icon-4.png") no-repeat center center;
+        width: 250px;
+        height: 71px;
+        display: block;
+      }
     }
   }
 }
+
+.col-md-6 {
+  .idea-tag {
+    h2 {
+      color: #8d81ac;
+      font-weight: bold;
+      font-size: 35px;
+    }
+  }
+  .idea {
+    background: url("../img/idea-bg.png") no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+}
+
