@@ -143,6 +143,7 @@ li {
 .features {
   background: #f4f4f4;
   padding-top: 124px;
+  position: relative;
 }
 
 .features .col-md-6 .box {
@@ -217,4 +218,7 @@ li {
   background: url("../img/idea-bg.png") no-repeat;
   width: 100%;
   height: 100%;
+  overflow: visible;
+  position: absolute;
+  right: 0;
 }
